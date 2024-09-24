@@ -1,5 +1,7 @@
 # Mechanistic-Interpretability
-This project, developed by Merve Ayyüce Kızrak as part of the AI Alignment Course - AI Safety Fundamentals powered by BlueDot Impact, leverages a range of advanced resources to explore key concepts in mechanistic interpretability in transformers.
+This project, developed by [Merve Ayyüce Kızrak](https://www.linkedin.com/in/merve-ayyuce-kizrak/) as part of the AI Alignment Course - AI Safety Fundamentals powered by BlueDot Impact, leverages a range of advanced resources to explore key concepts in mechanistic interpretability in transformers.
+
+Here is blog post of the project: [Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)
 
 # Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers
 
@@ -8,6 +10,8 @@ This repository contains two projects aimed at enhancing the mechanistic interpr
 
 ## Step 1 - Induction Head Detection
 Induction heads are specialized attention heads within transformer models that help maintain and repeat sequences during in-context learning. This project focuses on identifying these heads and visualizing their behavior in repetitive sequences.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) Here is the notebook!
 
 ### Key Features
 - **Dynamic Threshold Detection:** A novel method to detect induction heads using dynamic thresholds based on attention score variance.
@@ -30,6 +34,7 @@ The script generates attention heatmaps showing induction head activity for each
 
 ## Step 2 -  QK Circuit Analysis
 QK (Query-Key) circuits are fundamental to how transformers allocate attention among tokens in an input sequence. This project focuses on analyzing and visualizing QK interactions to understand how transformers prioritize information.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) Here is the notebook!
 
 ### Key Features
 - **QK Pattern Extraction:** Extracts Query and Key matrices from a specified layer of the transformer model.

@@ -1,7 +1,8 @@
-# Mechanistic-Interpretability
 This project, developed by [Merve Ayyüce Kızrak](https://www.linkedin.com/in/merve-ayyuce-kizrak/) as part of the AI Alignment Course - AI Safety Fundamentals powered by BlueDot Impact, leverages a range of advanced resources to explore key concepts in mechanistic interpretability in transformers.
 
-Here is blog post of the project: [Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)
+**Here is the blog post of the project: [Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)**
+
+---
 
 # Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers
 
@@ -11,7 +12,7 @@ This repository contains two projects aimed at enhancing the mechanistic interpr
 ## Step 1 - Induction Head Detection
 Induction heads are specialized attention heads within transformer models that help maintain and repeat sequences during in-context learning. This project focuses on identifying these heads and visualizing their behavior in repetitive sequences.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) Here is the notebook!
+Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 ### Key Features
 - **Dynamic Threshold Detection:** A novel method to detect induction heads using dynamic thresholds based on attention score variance.
@@ -20,13 +21,13 @@ Induction heads are specialized attention heads within transformer models that h
 
 ### How to Run
 1. **Install Required Libraries:**
-
+```bash
    pip install transformer-lens circuitsvis matplotlib seaborn
+```
+3. **Execute the Script:**
+Run the `qk_circuit_analysis.py` script to extract and visualize QK interactions for the provided sample sequences.
 
-2. **Execute the Script:**
-Run the qk_circuit_analysis.py script to extract and visualize QK interactions for the provided sample sequences.
-
-3. **Modify Input Sequences:**
+4. **Modify Input Sequences:**
 Change the sequences variable in the script to analyze your own text sequences for QK circuit interactions.
 
 ###Visualization
@@ -34,7 +35,8 @@ The script generates attention heatmaps showing induction head activity for each
 
 ## Step 2 -  QK Circuit Analysis
 QK (Query-Key) circuits are fundamental to how transformers allocate attention among tokens in an input sequence. This project focuses on analyzing and visualizing QK interactions to understand how transformers prioritize information.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) Here is the notebook!
+
+Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) 
 
 ### Key Features
 - **QK Pattern Extraction:** Extracts Query and Key matrices from a specified layer of the transformer model.
@@ -42,10 +44,12 @@ QK (Query-Key) circuits are fundamental to how transformers allocate attention a
 - **Causal Interventions:** Analyzes the impact of QK circuits on model behavior through causal interventions like ablations.
 
 ### How to Run
-Install Required Libraries:
-
-Execute the Script: Run the qk_circuit_analysis.py script to extract and visualize QK interactions for the provided sample sequences.
-Modify Input Sequences: Change the sequences variable in the script to analyze your own text sequences for QK circuit interactions.
+1. **Install Required Libraries:**
+```bash
+pip install transformer-lens circuitsvis matplotlib seaborn
+```
+2. **Execute the Script:** Run the `qk_circuit_analysis.py` script to extract and visualize QK interactions for the provided sample sequences.
+3. **Modify Input Sequences:** Change the sequences variable in the script to analyze your own text sequences for QK circuit interactions.
 
 ### Visualization
 The script generates QK interaction heatmaps for each sequence, highlighting how attention is distributed among tokens based on the model's Query and Key matrices.
@@ -57,14 +61,16 @@ The script generates QK interaction heatmaps for each sequence, highlighting how
 
 ### Installation
 Clone the repository and install the necessary dependencies:
+```bash
 git clone <repository-link>
 pip install -r requirements.txt
+```
 
 ### Usage
-1. Choose a project directory (induction_heads or qk_circuits).
+1. Choose a project directory (`induction_heads` or `qk_circuits`).
 2. Run the respective script for the project you are interested in:
-- induction_head_detection.py for Induction Heads.
-- qk_circuit_analysis.py for QK Circuits.
+- `induction_head_detection.py` for Induction Heads.
+- `qk_circuit_analysis.py` for QK Circuits.
 3. Modify the sequences variable in the script to use your own text sequences.
 
 ### Future Work

@@ -30,7 +30,7 @@ Run the `qk_circuit_analysis.py` script to extract and visualize QK interactions
 4. **Modify Input Sequences:**
 Change the sequences variable in the script to analyze your own text sequences for QK circuit interactions.
 
-###Visualization
+### Visualization
 The script generates attention heatmaps showing induction head activity for each sequence, providing a visual representation of how the model captures and retains context.
 
 ## Step 2 -  QK Circuit Analysis

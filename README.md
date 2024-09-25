@@ -12,7 +12,7 @@ This repository contains two projects aimed at enhancing the mechanistic interpr
 ## Step 1 - Induction Head Detection
 Induction heads are specialized attention heads within transformer models that help maintain and repeat sequences during in-context learning. This project focuses on identifying these heads and visualizing their behavior in repetitive sequences.
 
-Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ayyucekizrak/Mechanistic-Interpretability/blob/main/induction_head_detection.ipynb)
 
 ### Key Features
 - **Dynamic Threshold Detection:** A novel method to detect induction heads using dynamic thresholds based on attention score variance.

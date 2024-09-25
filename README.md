@@ -36,7 +36,7 @@ The script generates attention heatmaps showing induction head activity for each
 ## Step 2 -  QK Circuit Analysis
 QK (Query-Key) circuits are fundamental to how transformers allocate attention among tokens in an input sequence. This project focuses on analyzing and visualizing QK interactions to understand how transformers prioritize information.
 
-Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) 
+Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/ayyucekizrak/Mechanistic-Interpretability/blob/main/qk_circuit_analysis.ipynb) 
 
 ### Key Features
 - **QK Pattern Extraction:** Extracts Query and Key matrices from a specified layer of the transformer model.

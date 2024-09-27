@@ -24,6 +24,7 @@ Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets
 - **Evaluation Metrics:** Precision, recall, and F1-score calculations to measure the effectiveness of the detection method.
 
 <img align="middle" src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*4trUuXdwBd43DHEs.png"> 
+
 *The way an induction head in transformer models pays attention to repeated patterns in a sequence is presented in the image. When a sequence of tokens is repeated, the induction head notices the repetition. Thus, it shifts its attention to the corresponding token in the previous sequence, and the probability of predicting the next token based on the previously attended pattern, i.e., logit, increases. This mechanism helps the model to remember and repeat sequences during in-context learning.*
 
 ### How to Run
@@ -51,6 +52,7 @@ Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets
 - **Causal Interventions:** Analyzes the impact of QK circuits on model behavior through causal interventions like ablations.
 
 <img align="middle" src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*wi0zyL1u0oSDHQ3j.png"> 
+
 *It shows how QK (Query-Key) circuits in transformer models attend to different tokens according to their relevance. The attention pattern is visualized as moving information from the "key" token to the "query" token, affecting the model's prediction for the next token, the logit effect. This mechanism shows how attention is directed to specific words, thus affecting how the model processes and predicts the following tokens in a sequence.*
 
 ### How to Run

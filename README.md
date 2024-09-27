@@ -1,7 +1,8 @@
 #### This project, developed by [Merve Ayyüce Kızrak](https://www.linkedin.com/in/merve-ayyuce-kizrak/) as part of the [AI Alignment Course - AI Safety Fundamentals powered by BlueDot Impact](https://aisafetyfundamentals.com/), leverages a range of advanced resources to explore key concepts in mechanistic interpretability in transformers.
 
-**To access more detailed information and comments on the analysis results, read the project's blog post👇
-[Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)**
+**To access more detailed information and comments on the analysis results, read the project's blog post👇**
+
+**[Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)**
 
 *### Acknowledgment*
 

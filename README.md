@@ -49,6 +49,8 @@ Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets
 - **QK Interaction Heatmaps:** Visualizations of the interaction between Query and Key matrices to showcase attention distribution.
 - **Causal Interventions:** Analyzes the impact of QK circuits on model behavior through causal interventions like ablations.
 
+<img align="middle" src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*wi0zyL1u0oSDHQ3j.png"> 
+
 ### How to Run
 1. **Install Required Libraries:**
 ```bash

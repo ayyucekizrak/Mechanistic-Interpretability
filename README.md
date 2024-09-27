@@ -24,6 +24,7 @@ Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets
 - **Evaluation Metrics:** Precision, recall, and F1-score calculations to measure the effectiveness of the detection method.
 
 <img align="middle" src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*4trUuXdwBd43DHEs.png"> 
+--The way an induction head in transformer models pays attention to repeated patterns in a sequence is presented in the image. When a sequence of tokens is repeated, the induction head notices the repetition. Thus, it shifts its attention to the corresponding token in the previous sequence, and the probability of predicting the next token based on the previously attended pattern, i.e., logit, increases. This mechanism helps the model to remember and repeat sequences during in-context learning.--
 
 ### How to Run
 1. **Install Required Libraries:**

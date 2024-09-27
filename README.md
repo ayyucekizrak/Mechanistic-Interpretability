@@ -13,10 +13,10 @@
 ## Overview
 This repository contains two projects aimed at enhancing the mechanistic interpretability of transformer-based models, specifically focusing on GPT-2. The projects provide insights into two critical aspects of transformer behavior: **Induction Head Detection** and **QK Circuit Analysis**. By understanding these mechanisms, we aim to make transformer models more transparent, interpretable, and aligned with human values.
 
-### Pre-Trained GPT-2 Model
+### [Pre-Trained GPT-2 Model](https://huggingface.co/openai-community/gpt2)
 GPT-2, based on the Transformer architecture and developed by OPenAI, has been trained on a large dataset of internet text. It is an LLM developed to predict the next word in a sentence.
 
-### TransformerLens
+### [TransformerLens](https://transformerlensorg.github.io/TransformerLens/)
 TransformerLens is designed to interpret and analyze the inner workings of Transformer-based models like GPT-2. It allows researchers to investigate specific layers, attention heads, and other internal components of the model to understand better how it processes information and makes decisions. It provides functionality to access and manipulate various aspects of the model, such as activation caches, query key (QK) circuits, and induction heads, but also makes it easier to visualize and interpret the model's behavior.
 
 This study used these two tools together.

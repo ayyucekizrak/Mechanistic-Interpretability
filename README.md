@@ -88,3 +88,17 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 ###  Contact
 For any questions or inquiries, please contact [ayucekizrak@gmail.com].
+
+### Reference
+1. [Induction Heads - Illustrated by Callum McDougall](https://www.lesswrong.com/posts/TvrfY4c9eaGLeyDkE/induction-heads-illustrated)
+2. [Zoom-In: An Introduction to Circuits - OpenAI](https://distill.pub/2020/circuits/zoom-in/)
+3. [Intro to Mechanistic Interpretability: TransformerLens & induction circuits](https://arena3-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch)
+4. [TransformerLens Library by Neel Nanda](https://github.com/TransformerLensOrg/TransformerLens)
+5. [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+6. [OpenAI's Research on Transformer Interpretability](https://openai.com/research/)
+7. [Anthropic's Research on Transformer Behaviors](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
+8. [EleutherAI Research on Large Language Models](https://www.eleuther.ai/)
+9. [QK Circuit Analysis for Attention Allocation in Transformers](https://arxiv.org/abs/1706.03762)
+10. [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)
+11. [DeepMind's Research on Model Interpretability](https://deepmind.google/research/publications/22295/)
+12. [Distill Articles on Neural Network Interpretability](https://distill.pub/2020/circuits/)

@@ -22,6 +22,8 @@ GPT-2, based on the Transformer architecture and developed by OPenAI, has been t
 TransformerLens is designed to interpret and analyze the inner workings of Transformer-based models like GPT-2. It allows researchers to investigate specific layers, attention heads, and other internal components of the model to understand better how it processes information and makes decisions. It provides functionality to access and manipulate various aspects of the model, such as activation caches, query key (QK) circuits, and induction heads, but also makes it easier to visualize and interpret the model's behavior.
 
 This project used these two tools together.
+
+
 ---
 
 ## Step 1 - Induction Head Detection

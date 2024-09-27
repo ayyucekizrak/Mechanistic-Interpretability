@@ -110,7 +110,9 @@ pip install -r requirements.txt
 **📣 Exciting News!**
 💌 Don't miss a single update from me!🚀
 
-**[Subscribe now](https://ayyucekizrak.medium.com/subscribe)** to receive instant email alerts whenever I publish new content. Join the community of learners and stay ahead together! 📚🔔
+**[🔔Subscribe now](https://ayyucekizrak.medium.com/subscribe)** to receive instant email alerts whenever I publish new content. 
+
+Join the community of learners and stay ahead together!📚
 
 ----
 

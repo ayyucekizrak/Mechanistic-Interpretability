@@ -104,10 +104,10 @@ pip install -r requirements.txt
 - **Bias and Fairness Analysis:** Explore the impact of induction heads and QK circuits on model bias and fairness.
 - **Cross-Modal Analysis:** Apply these techniques to cross-modal transformers that handle both vision and language tasks.
 
-[📣 Exciting News!
-💌 Don't miss a single update from me, Ayyüce Kızrak!🚀 
-Subscribe now to receive instant email alerts whenever I publish new content. Join the community of learners and stay ahead together! 📚🔔
-]
+**📣 Exciting News!**
+💌 Don't miss a single update from me!🚀 
+[Subscribe now](https://ayyucekizrak.medium.com/subscribe) to receive instant email alerts whenever I publish new content. Join the community of learners and stay ahead together! 📚🔔
+
 
 (https://ayyucekizrak.medium.com/subscribe)
 

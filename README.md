@@ -1,6 +1,6 @@
 This project, developed by [Merve Ayyüce Kızrak](https://www.linkedin.com/in/merve-ayyuce-kizrak/) as part of the [AI Alignment Course - AI Safety Fundamentals powered by BlueDot Impact](https://aisafetyfundamentals.com/), leverages a range of advanced resources to explore key concepts in mechanistic interpretability in transformers.
 
-#### To access more detailed information and comments on the analysis results, read the project's blog post 👇
+#### 👇 To access more detailed information and comments on the analysis results, read the project's blog post 👇
 
 **[Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)**
 
@@ -22,6 +22,7 @@ GPT-2, based on the Transformer architecture and developed by OPenAI, has been t
 TransformerLens is designed to interpret and analyze the inner workings of Transformer-based models like GPT-2. It allows researchers to investigate specific layers, attention heads, and other internal components of the model to understand better how it processes information and makes decisions. It provides functionality to access and manipulate various aspects of the model, such as activation caches, query key (QK) circuits, and induction heads, but also makes it easier to visualize and interpret the model's behavior.
 
 This project used these two tools together.
+---
 
 ## Step 1 - Induction Head Detection
 Induction heads are specialized attention heads within transformer models that help maintain and repeat sequences during in-context learning. This project focuses on identifying these heads and visualizing their behavior in repetitive sequences.

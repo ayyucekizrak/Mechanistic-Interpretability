@@ -23,6 +23,8 @@ Here is the notebook! [![Open In Colab](https://colab.research.google.com/assets
 - **Attention Heatmaps:** Visualizations of attention patterns to highlight induction head activity in repetitive sequences.
 - **Evaluation Metrics:** Precision, recall, and F1-score calculations to measure the effectiveness of the detection method.
 
+<img align="left" src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*4trUuXdwBd43DHEs.png"> 
+
 ### How to Run
 1. **Install Required Libraries:**
 ```bash

@@ -4,7 +4,7 @@
 
 **[Mechanistic Interpretability in Action: Understanding Induction Heads and QK Circuits in Transformers](https://medium.com/)**
 
-*### Acknowledgment*
+### Acknowledgment
 
 *I would like to express my gratitude to the AI Safety Fundamental team, the facilitators, and all participants in the cohorts that I had the opportunity to contribute to developing new ideas in our discussions. I am pleased to be a part of this team.*
 
